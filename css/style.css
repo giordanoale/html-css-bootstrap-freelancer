@@ -1,0 +1,16 @@
+/* intestazione */
+header {
+  background-color: #2E3F4F;
+}
+
+header a {
+  height: 100px;
+  text-decoration: none;
+}
+
+header li{
+  list-style: none;
+  display: inline-block;
+  height: 100px;
+  float: right;
+}
