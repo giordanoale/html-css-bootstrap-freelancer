@@ -17,14 +17,16 @@ header li {
 /* /intestazione */
 
 /* jumbotron */
-.ag_jumbotron {
+.ag_big {
   background-color: #1abc9b;
-  text-align: center;
 }
 
 .ag_container {
+  width: 50%;
   padding-top: 50px;
   padding-bottom: 50px;
+  text-align: center;
+  margin: auto;
 }
 
 .ag_container hr {
@@ -43,3 +45,4 @@ header li {
   margin-top: 20px;
   text-align: center;
 }
+/* /portfolio */
