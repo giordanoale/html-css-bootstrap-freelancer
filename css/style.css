@@ -52,3 +52,21 @@ header li {
   text-align: left;
 }
 /* /contact me */
+
+/* piè di pagina */
+footer {
+  background-color: #2E3F4F;
+  color: #fff;
+  height: 300px;
+  position: relative;
+}
+
+.ag_small {
+  background-color: #1A262F;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+/* /piè di pagina */
