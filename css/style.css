@@ -8,9 +8,27 @@ header a {
   text-decoration: none;
 }
 
-header li{
+header li {
   list-style: none;
   display: inline-block;
   height: 100px;
   float: right;
 }
+/* /intestazione */
+
+/* jumbotron */
+.ag_jumbotron {
+  background-color: #1abc9b;
+  text-align: center;
+}
+
+.ag_container {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ag_container hr {
+  width: 50%;
+  color: #fff;
+}
+/* /jumbotron */
