@@ -1,3 +1,8 @@
+/* general */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* intestazione */
 header {
   background-color: #2E3F4F;
