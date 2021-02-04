@@ -10,12 +10,20 @@ body {
 .bg_white {
   background-color: #fff;
 }
+
+.color_primary {
+  color: #2D3E4F;
+}
+
+.bg_primary {
+  background-color: #2D3E4F;
+}
 /* intestazione */
 header {
   background-color: #2E3F4F;
   line-height: 100px;
   position: fixed;
-  z-index: 1;
+  z-index: 10;
   width: 100%;
 }
 
@@ -98,14 +106,47 @@ nav ul li {
 
 /* portfolio */
 .portfolio_title {
-  text-align: center;
+  font-size: 40px;
+  font-weight: 700;
   margin-top: 50px;
+  margin-bottom: 30px;
 }
 
 .tile {
-  margin-top: 20px;
-  text-align: center;
+  margin: 20px 20px;
 }
+
+.tile_img {
+  width: 100%;
+  max-width: 320px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.overlay {
+  visibility: hidden;
+  height: 100%;
+  width: 100%;
+  max-width: 320px;
+  position: absolute;
+  background-color: rgba(26, 188, 156, 0.9);
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.tile:hover .overlay{
+  visibility: visible;
+}
+
+.overlay i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate( -50% , -50% );
+  color: #fff;
+  font-size: 80px;
+}
+
 /* /portfolio */
 
 /* contact me */
