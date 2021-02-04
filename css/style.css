@@ -6,24 +6,47 @@ body {
 /* intestazione */
 header {
   background-color: #2E3F4F;
+  line-height: 100px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 header a {
-  height: 100px;
+  text-decoration: none;
+  color: #fff;
+}
+
+header a:hover {
+  color: #fff;
   text-decoration: none;
 }
 
-header li {
-  list-style: none;
-  display: inline-block;
-  height: 100px;
-  float: right;
+.logo_title {
+  font-weight: bold;
+  font-size: 28px;
+  vertical-align: middle;
 }
+
+nav ul li {
+  float: right;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-left: 40px;
+}
+
+.main_nav a:hover {
+  color: #1abc9b;
+  text-decoration: none;
+}
+
 /* /intestazione */
 
 /* jumbotron */
 .ag_big {
   background-color: #1abc9b;
+  padding-top: 100px;
 }
 
 .ag_container {
