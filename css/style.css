@@ -3,6 +3,13 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.color_white {
+  color: #fff;
+}
+
+.bg_white {
+  background-color: #fff;
+}
 /* intestazione */
 header {
   background-color: #2E3F4F;
@@ -56,10 +63,36 @@ nav ul li {
   text-align: center;
   margin: auto;
 }
-
-.ag_container hr {
-  width: 50%;
+.ag_container h1 {
+  font-size: 60px;
+  font-weight: 700;
   color: #fff;
+  margin: 40px 0;
+}
+.avatar {
+  height: 240px;
+  margin-top: 50px;
+}
+
+.divider i {
+ display: inline-block;
+ margin: 0 16px;
+ vertical-align: middle;
+ font-size: 32px;
+}
+
+.divider .divider_line {
+  display: inline-block;
+  width: 20%;
+  height: 4px;
+  vertical-align: middle;
+  border-radius: 20px;
+}
+
+.ag_container p {
+  font-size: 21px;
+  font-weight: 500;
+  margin-top: 30px;
 }
 /* /jumbotron */
 
