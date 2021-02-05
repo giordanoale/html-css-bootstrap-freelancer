@@ -18,6 +18,13 @@ body {
 .bg_primary {
   background-color: #2D3E4F;
 }
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
 /* intestazione */
 header {
   background-color: #2E3F4F;
@@ -166,6 +173,38 @@ nav ul li {
 
 /* /portfolio */
 
+/* about */
+.about_main {
+  background-color: #1abc9b;
+  margin-top: 50px;
+}
+
+.about_main h2 {
+  font-size: 48px;
+}
+
+.about_main p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.btn_download {
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 18px 25px;
+  background-color: transparent;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.btn_download:hover {
+  background-color: #fff;
+  border: 2px solid #fff;
+}
+
+.btn_download i {
+  margin-right: 10px;
+}
 /* contact me */
 .form {
   text-align: left;
@@ -189,3 +228,11 @@ footer {
   text-align: center;
 }
 /* /piè di pagina */
+
+@media screen and (max-width: 992px) {
+
+  .logo_title {
+    font-size: 20px;
+  }
+
+}
