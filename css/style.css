@@ -25,6 +25,12 @@ h3 {
   text-transform: uppercase;
   font-weight: bold;
 }
+
+h2 {
+  font-size: 48px;
+}
+/* /general */
+
 /* intestazione */
 header {
   background-color: #2E3F4F;
@@ -179,10 +185,6 @@ nav ul li {
   margin-top: 50px;
 }
 
-.about_main h2 {
-  font-size: 48px;
-}
-
 .about_main p {
   font-size: 20px;
   text-align: left;
@@ -208,6 +210,20 @@ nav ul li {
 /* contact me */
 .form {
   text-align: left;
+}
+
+.btn_submit {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 15px 25px;;
+  font-size: 20px;
+}
+
+input, textarea {
+  padding: 20px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #e9ecef;
 }
 /* /contact me */
 
