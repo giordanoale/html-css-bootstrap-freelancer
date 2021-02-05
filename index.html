@@ -26,17 +26,26 @@
         <div class="row">
           <div class="col-xs-6">
             <div class="logo_title">
-             <a href="#">START BOOTSTRAP</a>
+             <a href="#jumbotron">START BOOTSTRAP</a>
             </div>
           </div>
           <div class="col-xs-6">
-            <nav class="main_nav">
+            <nav class="main_nav visible-md visible-lg">
               <ul class="list-inline">
-                <li><a href="#contact">CONTACT</a></li>
-                <li><a href="#about">ABOUT</a></li>
-                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li>
+                  <a href="#contact">CONTACT</a>
+                </li>
+                <li>
+                  <a href="#about">ABOUT</a>
+                </li>
+                <li>
+                  <a href="#portfolio">PORTFOLIO</a>
+                </li>
               </ul>
             </nav>
+
+            <button class="btn btn-mobile hidden-md hidden-lg" type="button" name="button">Menu <i class="fa fa-bars"></i></button>
+
           </div>
         </div>
       </div>
@@ -47,7 +56,7 @@
     <main>
 
       <!-- jumbotron -->
-      <div class="ag_big">
+      <div id="jumbotron" class="ag_big">
         <div class="ag_container">
           <img class="avatar" src="img/avatar.svg">
           <h1>START BOOTSTRAP</h1>
